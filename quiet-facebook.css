@@ -1,0 +1,8 @@
+div[id*="topnews"], /* News feed */
+#u_0_1q, /* News feed: empty loading indicator items */
+#pagelet_bookmark_nav, /* Left column: Bookmarks */
+a[href*="lists"], /* Left column: Lists like 'Close Friends' */
+div[id*="ticker"] /* Right column / Chat sidebar: news ticker */
+{
+  display: none !important;
+}
