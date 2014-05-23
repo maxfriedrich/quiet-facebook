@@ -5,7 +5,7 @@ quiet-facebook
 
 ##To use:
 
-#Safari:
+###Safari:
 
 1. Clone repository to desktop or download as .zip
 2. Open preferences. Under the advanced tab, click on the dropdown menu for 'Style sheet:', and click on 'Other...'
@@ -13,7 +13,7 @@ quiet-facebook
 3. Find your cloned stylesheet and hit 'Choose'
 4. Enjoy the silence
 
-#Chrome:
+###Chrome:
 
 1. Add the Stylebot Chrome extension from (https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=en "here")
 2. Go to Facebook and hit the 'CSS' button to the right of your navigation bar, and then click 'Open Stylebot...'
