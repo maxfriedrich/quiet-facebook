@@ -3,6 +3,10 @@ div[id*="topnews"], /* News feed */
 #pagelet_bookmark_nav, /* Left column: Bookmarks */
 a[href*="lists"], /* Left column: Lists like 'Close Friends' */
 div[id*="ticker"] /* Right column / Chat sidebar: news ticker */
+div.ego_unit, /* Right column: Ads */
+div.uiHeader.uiHeaderTopBorder.mbs.uiSideHeader, /* Right column: Sponsored Header */
+div._5my7, /* Right column: Trending */
+div.uiHeader.uiHeaderTopBorder.pbs._2w2d /* Right column: Trending header */
 {
   display: none !important;
 }
