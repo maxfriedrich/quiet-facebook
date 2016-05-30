@@ -1,7 +1,6 @@
-# Zen Facebook
+## Zen Facebook
 
 
-## Installation
 - **Safari:** 
 	1. Ensure Developer tools enabled in Safari preferences (Safari->Preferences->Advanced->Show Develop menu in menu bar) 
 	2. Open Extension Builder in Safari (Develop->Show Extension Builder)
