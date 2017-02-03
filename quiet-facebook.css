@@ -1,13 +1,22 @@
 
 #pagelet_bookmark_nav, /* Left column: Bookmarks */
-a[href*="lists"], /* Left column: Lists like 'Close Friends' */
+div[id*="appsNav"], /* Left column: Facebook Apps */
+div[id*="createNav"], /* Left column: Footer text links */
 div[id*="ticker"], /* Right column / Chat sidebar: news ticker */
-div[id*="pagelet_trending_tags_and_topics"] /* Right column: Trending tags and topics */
+div[id*="pagelet_trending_tags_and_topics"], /* Right column: Trending tags and topics */
+div[id*="pagelet_ego_pane"], /* Right column: Ads */
+div[id*="pagelet_rhc_footer"], /* Right column: Footer text links */
+div[id*="pagelet_dock"] /* Chat */
 {
   display: none !important;
 }
 
 /* News feed - Needs visibility:hidden to prevent endless refreshing */
-div[id*="topnews"] { 
+div[id*="topnews"] {
 	visibility: hidden !important;
+}
+
+/* Right column - Needs removed min-height to collapse */
+.newsFeedComposer ._5v6e .home_right_column, ._268y {
+    min-height: auto !important;
 }
