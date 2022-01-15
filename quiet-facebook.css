@@ -17,7 +17,7 @@ div[id*="topnews"] {
 div[data-pagelet="Stories"], /* Stories list */
 div[data-pagelet="VideoChatHomeUnit"], /* Rooms/video chat list */
 span#ssrb_feed_start+div[role="feed"], /* News feed */
-div[data-pagelet="RightRail"] > div:first-child > div:first-child /* Right rail's first section, which is an ad */
+div[data-pagelet="RightRail"] > div:first-child > span:first-child /* Right rail's first section, which is an ad */
 {
   display: none !important;
 }
