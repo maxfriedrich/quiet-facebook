@@ -1,15 +1,13 @@
-
 #pagelet_bookmark_nav, /* Left column: Bookmarks */
 div[id*="ticker"], /* Right column / Chat sidebar: news ticker */
 div[id*="pagelet_trending_tags_and_topics"], /* Right column: Trending tags and topics */
 div[id="stories_pagelet_rhc"], /* Right column: Stories */
-div[id="pagelet_ego_pane"] /* Right column: Ads */
-{
-  display: none !important;
+div[id="pagelet_ego_pane"] /* Right column: Ads */ {
+	display: none !important;
 }
 
 /* News feed - Needs visibility:hidden to prevent endless refreshing */
-div[id*="topnews"] { 
+div[id*="topnews"] {
 	visibility: hidden !important;
 }
 
@@ -17,7 +15,7 @@ div[id*="topnews"] {
 div[data-pagelet="Stories"], /* Stories list */
 div[data-pagelet="VideoChatHomeUnit"], /* Rooms/video chat list */
 span#ssrb_feed_start+div[role="feed"], /* News feed */
-div[data-pagelet="RightRail"] > div:first-child > span:first-child /* Right rail's first section, which is an ad */
-{
-  display: none !important;
+div[data-pagelet="RightRail"] > div:first-child > span:first-child, /* Right rail's first section, which is an ad */
+div[aria-label="panel Reels"] /*Reels feed*/ {
+	display: none !important;
 }
